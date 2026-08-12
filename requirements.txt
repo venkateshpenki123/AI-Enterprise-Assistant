@@ -1,0 +1,14 @@
+streamlit
+pandas
+streamlit
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+google-genai
+python-dotenv
+fastapi
+uvicorn
+matplotlib
+sqlalchemy
+PyMuPDF

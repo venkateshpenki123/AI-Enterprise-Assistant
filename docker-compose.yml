@@ -1,0 +1,19 @@
+services:
+
+  enterprise-assistant:
+
+    build: .
+
+    container_name: ai-enterprise-assistant
+
+    ports:
+      - "8501:8501"
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./uploads:/app/uploads
+      - ./logs:/app/logs
+      - ./enterprise.db:/app/enterprise.db
+      - ./users.db:/app/users.db
