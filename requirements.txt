@@ -12,3 +12,4 @@ uvicorn
 matplotlib
 sqlalchemy
 PyMuPDF
+bcrypt
