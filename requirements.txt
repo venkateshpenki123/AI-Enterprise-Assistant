@@ -13,3 +13,4 @@ matplotlib
 sqlalchemy
 PyMuPDF
 bcrypt
+langchain-text-splitters
